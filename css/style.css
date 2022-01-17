@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+}
+.container{
+  width: 1200px;
+  height: 100vh;
+  margin: auto;
+  margin-top: 100px;
+  overflow: hidden;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: rgb(127, 173, 214);
+}
+.row p{
+  padding:50px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+h1,
+.my-skill{
+  text-align: center;
+}
+.my-skill{
+  background-color: rgb(127, 173, 214);
+}
+h2{
+  font-size: 30px;
+  color: white;
+}
